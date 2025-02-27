@@ -1,1 +1,2 @@
-# landing-page
+This is a basic website to train on using basic html and css.
+Images Credit: Touann Gatouillat Vergos from unsplash.com, Abdulkayum, Chandravardhan Singh, Marina Zvada and Steffan Wiliams all from pexels.com.
