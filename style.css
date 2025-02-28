@@ -76,7 +76,7 @@ ul {
     flex-direction: column;
     flex:1;
     background-color: #e5e7eb;
-    font-size: 25px;
+    font-size: 36px;
     font-style: italic;
     color: #1f2937;
     padding: 100px 200px 100px 350px;
@@ -86,8 +86,9 @@ ul {
 
 .author {
 
-    align-self: center;
+    align-self: flex-end;
     font-weight: bold;
+    margin-right: 50px;
 }
 
 .action .container {
@@ -137,11 +138,20 @@ ul {
 }
 
 .illustration{
-    max-width: 200px;
+    max-width: 220px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: flex-start;
+    gap: 15px;
+    justify-content: center;    
+}
+
+.illustration div {
+
+    font-size: 20px;
+    color: rgb(72, 68, 68);
+    align-self: center;
+    margin-left: 10px;
 
 }
 
@@ -176,6 +186,7 @@ h2{
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin-bottom: 30px;
 }
 
 .action p {
@@ -185,6 +196,7 @@ h2{
 .action button {
 
     border:  solid 1px;
+    flex-shrink: 0;
 }
 
 .second-navbar button {
